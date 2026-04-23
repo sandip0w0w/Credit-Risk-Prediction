@@ -7,7 +7,8 @@ This project implements a machine learning pipeline to classify credit risk usin
 ### 1. Data Insights & Distribution
 Extensive Exploratory Data Analysis (EDA) was conducted to identify the most predictive features. We found that checking account status and duration are the strongest indicators of risk.
 
-<img width="479" height="319" alt="image" src="https://github.com/user-attachments/assets/c932e098-6946-4ec0-b171-3190c1ed166b" />
+<img width="751" height="395" alt="image" src="https://github.com/user-attachments/assets/baadd153-07c6-4e39-8877-6885e23c4de2" />
+
 
 ### 2. Risk Feature Correlation
 We analyzed how numerical variables like credit duration impact the likelihood of default. The density plots revealed a clear trend: as loan duration increases, the concentration of "Bad Risk" cases rises significantly.
@@ -26,6 +27,8 @@ A Decision Tree Classifier was optimized to prioritize the detection of "Bad" ri
 To move beyond a "black box" approach, SHAP (SHapley Additive exPlanations) was integrated to explain why the model flags specific individuals as high risk.
 
 <img width="1033" height="893" alt="image" src="https://github.com/user-attachments/assets/103d97a0-8c7b-4ed2-a69b-6e06fdf47f76" />
+
+
 
 <img width="784" height="731" alt="image" src="https://github.com/user-attachments/assets/87f6dda8-67f8-40da-9d1e-1d3185a45652" />
 
